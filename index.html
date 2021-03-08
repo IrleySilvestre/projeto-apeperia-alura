@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,38 +11,109 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/cabecalho.css">
-    <link rel="stylesheet" href="./css/chamada.css">
-    <link rel="stylesheet" href="./css/planos.css">
+    <link rel="stylesheet" href="./css/reset-css.css">
+    <link rel="stylesheet" href="./css/base-css.css">
+
+    <link rel="stylesheet" href="./css/main-nav.css">
+    <link rel="stylesheet" href="./css/main-header.css">
+    <link rel="stylesheet" href="./css/main-logo.css">
+    <link rel="stylesheet" href="./css/main-link.css">
+    <link rel="stylesheet" href="./css/section-chamada.css">
+    <link rel="stylesheet" href="./css/main-title.css">
+    <link rel="stylesheet" href="./css/main-p.css">
+    <link rel="stylesheet" href="./css/main-button.css">
+    <link rel="stylesheet" href="./css/section-destaque.css">
+    <link rel="stylesheet" href="./css/section-diferenciais.css">
+    <link rel="stylesheet" href="./css/section-sobre.css">
+
+
 </head>
+
 <body>
-    <header class="cabecalho container">
-        <img class="cabecalho__logo" src="./img/logo-apeperia.svg" alt="Logo da Apeperia">
-        <nav class="cabecalho__navegacao">
+    <header class="main-header ">
+        <img class="main-logo" src="./img/logo-apeperia.svg" alt="Logo da Apeperia">
+        <nav class="main-nav">
             <ul>
-                <li class="cabecalho__link"><a href="#"></a>Sobre</li>
-                <li class="cabecalho__link"><a href="#"></a>Planos</li>
-                <li class="cabecalho__link"><a href="#"></a>Blog</li>
-                <li class="cabecalho__link"><a href="#"></a>Destaques</li>
-                <li class="cabecalho__link"><a href="#"></a>Institucional</li>
-                <li class="cabecalho__link"><a href="#"></a>Contato</li>
-            </ul> 
+                <li class="main-link"><a href="#"></a>Sobre</li>
+                <li class="main-link"><a href="#"></a>Planos</li>
+                <li class="main-link"><a href="#"></a>Blog</li>
+                <li class="main-link"><a href="#"></a>Destaques</li>
+                <li class="main-link"><a href="#"></a>Institucional</li>
+                <li class="main-link"><a href="#"></a>Contato</li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <section class="chamada container">
-            <h1 class="chamada__titulo">Aplicativos Na Medida</h1>
-            <p class="chamada__texto">Aplicativos Na Medida
+        <section class="section-chamada">
+            <h1 class="main-title">Aplicativos Na Medida</h1>
+            <p class="main-p">
                 Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas e médias empresas.
-                Conheça os planos</p>
-            <a class="chamada__botao botao" href="#">Conheça os planos</a>
+            </p>
+            <a class="main-button" href="#">Conheça os planos</a>
         </section>
-    </main> 
+    </main>
 
-    section .destaque>(figure>img+figcaption+figure>img+figcaption)+a
+    <section class="section-destaque">
+
+        <h1 class="main-title">Destaques</h1>
+        <a href="#">
+            <figure>
+                <img class="destaqueimg" src="./img/comecando-criar-logotipo.png"
+                    alt="Painel do post sobre criação de logotipo Conheça as primeiras etapas para a criação de um logotipo">
+                <figcaption>
+                    <p class="main-p">Conheça as primeiras etapas para criação de um logotipo</p>
+                </figcaption>
+            </figure>
+        </a>
+        <a href="#">
+            <figure>
+                <img class="destaqueimg" src="./img/dicas-fotografia.png" alt="Painel do post sobre fotografia com celular
+                    Veja dicas de como fotografar usando seu celular">
+                <figcaption>
+                    <p class="main-p">Veja dicas de como fotografas usando seu celular</p>
+                </figcaption>
+            </figure>
+        </a>
+        <a class="main-button -destaque" href="#">Receber destaques por email</a>
+    </section>
+
+    <section class="section-diferenciais">
+        <h1 class="main-title">Diferenciais</h1>
+        <ul class="listdiferenciais">
+            <li>
+                <h2 class="main-title -dif">Tempo</h2>
+                <p class="main-p">Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente aos
+                    prazos.</p>
+            </li>
+            <li>
+                <h2 class="main-title -dif">Foco</h2>
+                <p class="main-p">Focamos no empreendimento! Oferecemos serviços de qualidade com preços acessíveis.</p>
+            </li>
+            <li>
+                <h2 class="main-title -dif">Especialistas</h2>
+                <p class="main-p">Equipe experiente e especializada! Testamos todos os produtos antes do lançamento.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="section-sobre">
+        <h2 class="main-title -clr">Sobre</h2>
+        <p class="main-p -fnt">Criamos aplicativos personalizados para todas as pessoas!</p>
+        <p class="main-p -fnt">A manutenção de um aplicativo não pode ser um custo extra para o cliente, Na Apeperia você
+            assina nosso serviço e a manutenção já está inclusa. Assim, você não se preocupa com manutenção, é tudo por
+            nossa conta.</p>
+        <p class="main-p -fnt -destaque">Conte com uma equipe especializada e exclusiva pra projetos incríveis em qualquer plataforma.
+        </p>
+        <ul class="listlogo">
+            <li><img src="./img/android.png" alt="Logo do Android"></li>
+            <li><img src="./img/blackberry.png" alt="Logo"></li>
+            <li><img src="./img/apple.png" alt="Logo da Apple"></li>
+            <li><img src="./img/windowsphone.png" alt="Logo o Windows Phone"></li>
+            
+        </ul>
+        <p class="main-p -fnt">Desenvolvemos aplicativos para todas as plataformas</p>
+    </section>
 
 </body>
+
 </html>

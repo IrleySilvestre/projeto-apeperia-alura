@@ -1,0 +1,14 @@
+.section-diferenciais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--azul-claro);
+    padding-top: 2.25rem;
+    padding-bottom: 2.5rem;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.section-diferenciais .listdiferenciais{
+    max-width: 350px;
+}

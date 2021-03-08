@@ -1,0 +1,22 @@
+.main-title {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.main-title.-dif{
+    font-family: var(--opensans);
+    font-weight: bold;
+    color: var(--cinza-escuro);
+    font-size: 1.2rem;
+}
+
+.main-title.-clr{
+    color: var(--cinza-escuro);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}

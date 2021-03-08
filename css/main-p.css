@@ -1,0 +1,16 @@
+.main-p {
+    font-size: 1.25rem;
+    line-height: normal;
+    margin: 0 auto 2.5rem;
+}
+
+.main-p.-fnt {
+    margin-bottom: 1rem;
+    color: var(--cinza-escuro);
+}
+
+.main-p.-fnt.-destaque {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    text-align: center;
+}

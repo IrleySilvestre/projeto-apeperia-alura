@@ -1,0 +1,15 @@
+.section-sobre {
+    background-color: var(--azul-claro);
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.section-sobre .listlogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
